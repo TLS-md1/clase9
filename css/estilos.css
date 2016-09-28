@@ -1,0 +1,164 @@
+body{
+	background-color: orange;
+}
+
+.contenedor{
+	width: 90%;
+	margin: 0 auto;
+}
+/*Para aplicar inline a varios elementos*/
+.bloque-inline{
+	display: inline-block;
+}
+
+/*Determinamos clases para especificar anchos en bloques*/
+.ancho10{width: 10%;}
+.ancho20{width: 20%;}
+.ancho30{width: 30%;}
+.ancho40{width: 40%;}
+.ancho50{width: 50%;}
+.ancho60{width: 60%;}
+.ancho70{width: 70%;}
+.ancho80{width: 80%;}
+.ancho90{width: 90%;}
+.ancho100{width: 100%;}
+
+/*Cabecera*/
+
+header{
+	background-image: url(../img/bg-header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	padding-top: 70px;
+}
+header div#bloque-texto-principal,
+header div#bloque-imagen-principal{
+	vertical-align: middle;/*Sirve para colocar los elemento desde la parte top(superior), bottom(inferior) o midle(medio)*/
+}
+header div#bloque-texto-principal h1{
+	color: #ffffff;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 2px #000000;
+	font-weight: lighter;
+}
+header div#bloque-texto-principal p{
+	color: #ffffff;
+	font-size: 20px;
+	text-shadow: 0px 1px 2px #000000;
+}
+header div#bloque-imagen-principal{
+	text-align: right;
+}
+header div#bloque-imagen-principal img{
+	border-radius: 25px 25px 0 0;
+}
+
+/*Servicios*/
+
+
+
+#servicios{
+	background-color: #ffffff;
+	text-align: center;
+	padding: 50px 0 50px 0;
+}
+#servicios article{
+	padding: 10px;
+}
+#servicios article .imagen-circular{
+    border: 2px solid #ededed;
+    border-radius: 54px;
+    width: 54px;
+    height: 54px;
+    padding: 12px;
+    margin: 0 auto;
+}
+#servicios article img{}
+#servicios article h2{
+	color:#333333;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+#servicios article p{
+	color: #aaaaaa;
+	font-size: 14px;
+}
+
+/*informes*/
+
+#informes{
+	background-color: #e8776b;
+	padding: 40px 0 40px 0;
+}
+#informes h3{
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 24px;
+	margin-left: 30px;
+}
+#informes .box-link{
+	text-align: right;
+}
+#informes a{
+	color: #ffffff;
+	font-size: 14px;
+	padding: 12px 18px;
+	border: 1px solid white;
+	text-decoration: none;
+	border-radius: 7px;
+	text-align: right;
+}
+
+/*Detalle*/
+#detalle{
+	background-color: #5e95cd;
+	padding: 50px 0 70px 0;
+	color:#ffffff;
+}
+#box-img-mac,
+#box-text-mac{
+	vertical-align: top;
+}
+
+#detalle img{
+	width: 90%;
+	height: auto;
+}
+#detalle article{}
+#detalle article h2{
+	font-weight: lighter;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+#detalle article p{
+	font-size: 12px;
+	line-height: 30px;
+}
+
+/*Footer*/
+footer{
+	background-color: #e8776b;
+}
+footer h4{
+	margin: 0;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: lighter;
+}
+footer ul{}
+footer ul li{
+	display: inline-block;
+	list-style: none;
+}
+footer ul li a{
+	display: inline-block;
+}
+footer ul li a img{}
+
+
+
+
+
